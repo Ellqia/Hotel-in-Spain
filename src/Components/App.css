@@ -1,0 +1,33 @@
+.App {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-bar input, .search-bar button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.hotel-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.hotel-card img {
+  width: 100%;
+  height: auto;
+}
